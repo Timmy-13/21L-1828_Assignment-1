@@ -1,0 +1,136 @@
+.container {
+    margin-left: 20%;
+    margin-right: 20%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    width: 1132px;
+    border-bottom: 3px solid #2264A8;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-half{
+    flex: 1 1 33%
+}
+
+.profile{
+    max-height: 150px;
+    max-width: 150px;
+    border-radius: 50%;
+    padding: 40px;
+    margin-left: 15px;
+}
+
+.profile-back{
+    position: absolute;
+    z-index: -1;
+    width: 250px; /* Set width */
+    height: 250px; /* Set height */
+}
+.overpass-light {
+  font-family: "Overpass", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 50px;
+  margin-bottom: 0;
+  position: relative;
+  top: 29px;
+}
+.overpass-bold {
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 50px;
+    margin-top: 0px;
+  }
+
+.break{
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1px solid #2264A8;
+}
+
+.small{
+    font-size: 20px!important;
+    display: inline;
+}
+
+.profession{
+    width: 250px;
+    margin-left: 301px;
+    margin-top: 100px
+}
+
+.bookmark{
+    position: absolute;
+    top: 8px;
+    margin-left: 150px;
+}
+
+.title{
+    font-family: "Overpass", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 23px;
+  border-bottom: 2px solid #0065a8;
+}
+.column{
+    width: 33%;
+    padding: 30px 70px 10px 70px;
+}
+
+.column-single{
+    width: 100%;
+    padding: 30px 70px 10px 70px;
+}
+
+.detail{
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+}
+
+strong{
+    line-height: 1.5;
+}
+
+.border-none{
+    border: none!important;
+}
+.border-none::before{
+    content: '\e922';
+    font-family: "Material Symbols Outlined";
+    padding-right: 5px;
+    color: #2264A8;
+}
+
+.list-style-none{
+    list-style: none;
+}
+.email::before{
+    content: '\e158';
+    font-family: "Material Symbols Outlined";
+    padding-right: 5px;
+}
+.phone::before{
+    content: '\e0b0';
+    font-family: "Material Symbols Outlined";
+    padding-right: 5px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.border-side{
+    border-right: 2px solid #2264A8;
+    border-left: 2px solid #2264A8;
+}

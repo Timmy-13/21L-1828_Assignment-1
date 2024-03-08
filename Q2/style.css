@@ -1,0 +1,10 @@
+.navbar-h{
+    min-height: 80px;
+}
+
+.carousel-item img{
+    max-width: 500px;
+}
+.input-group, .input-group input{
+    height: 60px;
+}
